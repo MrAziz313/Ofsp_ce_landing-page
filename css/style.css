@@ -1,0 +1,217 @@
+:root{
+    --icn-background:rgb(244 250 254);
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.stu-btn{
+    background-color: rgb(25, 173, 124);
+}
+.txt-stu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.stu-para{
+    font-size: 15px;
+}
+.stu-img{
+    height: 28rem;
+}
+.score {
+    height: 4em;
+}
+.risk{
+    left: 9px;
+    top: 33px;
+}
+.ser-p{
+    font-size: 0.7em;
+}
+.arrow{
+    height: 2em;
+    width: 2em;
+}
+.service{
+    background-color: rgb(230, 245, 239);
+    bottom: 11rem;
+    left: 20.5rem;
+    height: 6.5rem;
+    width: 16rem;
+}
+.mesg{
+    height: 2.8em;
+    width: 2.8em; 
+}
+.c-txt{
+    font-size: 1em;
+}
+.catch{
+    width: 20em;
+    height: 6em;
+    left: -7.3rem;
+  
+    top: 24rem;
+    z-index: 3;
+}
+.arrow-commu{
+    height: 2em;
+    width: 2em;
+}
+
+.log{
+    height: 2em;
+}
+.commu-stu,.commu-stu2{
+    background-color:var(--icn-background);
+    width: 200px;
+}
+
+.commu-stu:hover{
+background-color: white;
+
+}
+.logo_color{
+    background-color:var(--icn-background)
+}
+.arrow-commu,.arrow-meet{
+    background-color: white;
+}
+.arrow-commu:hover{
+    background-color: rgb(12, 181, 190);
+    
+}
+.meet-stu{
+    background-color:white;
+    width: 200px;
+}
+
+.arrow-meet
+{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(194, 246, 246);
+}
+.arrow-meet1{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(242, 215, 60);
+}
+.arrow-meet2{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(178, 240, 240);
+}
+.arrow-meet3{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(243, 168, 231);
+}
+.meet-p{
+    font-size: 13px;
+}
+.book-i{
+    background-color: rgb(145, 145, 245);
+    height: 2.8em;
+    width: 2.8em; 
+}
+.book1-i{
+    background-color:rgb(15, 145, 145);
+    height: 2.8em;
+    width: 2.8em; 
+}
+
+.girl-img img{
+   
+   max-width: 450px;
+}
+.c-green{
+    color: rgb(15, 145, 145);
+}
+.f-icon1{
+    background-color: rgb(114, 114, 135);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.f-icon1:hover{
+    background-color: white;
+}
+.f-para{
+    font-size: 12px;
+}
+.s-span1{
+    width: 40px;
+    height: 7px;
+    background-color:rgb(15, 145, 145);
+}
+.s-span2{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(227, 230, 236);
+}
+.stu-left{
+    width: 391px;
+}
+.stu2-txt{
+    width: 445px;
+}
+.footer_1{
+    display: flex;
+    justify-content: center;
+}
+.stu-para{
+  color: rgb(125, 121, 121);
+}
+@media screen and (max-width:576px){
+.stu-right {
+    display: none;
+}
+.stu2-txt,.stu-left{
+    width: 345px;
+}
+.girl-img img{
+    width: 268px;
+    margin-left: 40px;
+ }
+.stu1-img img{
+    max-width: 310px;
+    margin: 10px 5px;
+}
+.footer_1{
+  
+   text-align: center;
+   margin-bottom: 30px;
+}
+.txt-stu{
+    font-size: 35px;   
+}
+.foot-icons {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.ul-product,.girl_txt{
+    display: flex;
+    justify-content: center;
+}
+.ul-p1{
+    text-align: center;
+}
+}
+@media screen and ( min-width:576px){
+    .stu1-img{
+        display: none;
+    }
+    .track1{
+        text-align: center;
+     
+    }
+  }
